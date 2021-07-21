@@ -67,7 +67,7 @@ namespace Homework0717
                 this.cboCCcarpub.Visible = false;
                 this.cboCCt.SelectedIndex = 0;
             }
-
+            
             else if (kinddo == "大客車")
             {
                 this.cboCCmoto.Visible = false;
