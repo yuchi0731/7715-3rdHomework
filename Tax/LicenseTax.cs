@@ -125,6 +125,45 @@ namespace Homework0717
                     this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
                     this.cbokind.SelectedIndex = -1;
 
+                    if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
+                    {
+                        this.lblarCC.Visible = true;
+                        this.lblarCC.ForeColor = Color.Red;
+                        this.lblarCC.Text = "請依車種輸入正確汽缸／馬力選單";
+                        this.lblAns.ForeColor = Color.Red;
+                        this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+
+                        if (cbokind.Text == "") //檢查有無車種選項
+                        {
+
+                            this.lblarK.Visible = true;
+                            this.lblarK.ForeColor = Color.Red;
+                            this.lblarK.Text = "請輸入正確車種選單";
+                            this.lblAns.ForeColor = Color.Red;
+                            this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                            this.cbokind.SelectedIndex = -1;
+
+                            if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
+                            {
+                                this.lblarCC.Visible = true;
+                                this.lblarCC.ForeColor = Color.Red;
+                                this.lblarCC.Text = "請依車種輸入正確汽缸／馬力選單";
+                                this.lblAns.ForeColor = Color.Red;
+                                this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                            }
+                        }
+                    }
+                    else
+                    {
+                        this.lblarCC.Visible = false;
+                        this.lblarK.Visible = true;
+                        this.lblarK.ForeColor = Color.Red;
+                        this.lblarK.Text = "請輸入正確車種選單";
+                        this.lblAns.ForeColor = Color.Red;
+                        this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                        this.cbokind.SelectedIndex = -1;
+                    }
+
                 }
 
                 if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
@@ -180,6 +219,45 @@ namespace Homework0717
                         this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
                         this.cbokind.SelectedIndex = -1;
 
+                        if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
+                        {
+                            this.lblarCC.Visible = true;
+                            this.lblarCC.ForeColor = Color.Red;
+                            this.lblarCC.Text = "請依車種輸入正確汽缸／馬力選單";
+                            this.lblAns.ForeColor = Color.Red;
+                            this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+
+                            if (cbokind.Text == "") //檢查有無車種選項
+                            {
+
+                                this.lblarK.Visible = true;
+                                this.lblarK.ForeColor = Color.Red;
+                                this.lblarK.Text = "請輸入正確車種選單";
+                                this.lblAns.ForeColor = Color.Red;
+                                this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                                this.cbokind.SelectedIndex = -1;
+
+                                if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
+                                {
+                                    this.lblarCC.Visible = true;
+                                    this.lblarCC.ForeColor = Color.Red;
+                                    this.lblarCC.Text = "請依車種輸入正確汽缸／馬力選單";
+                                    this.lblAns.ForeColor = Color.Red;
+                                    this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                                }
+                            }
+                        }
+                        else
+                        {
+                            this.lblarCC.Visible = false;
+                            this.lblarK.Visible = true;
+                            this.lblarK.ForeColor = Color.Red;
+                            this.lblarK.Text = "請輸入正確車種選單";
+                            this.lblAns.ForeColor = Color.Red;
+                            this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                            this.cbokind.SelectedIndex = -1;
+                        }
+
                     }
 
                     if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
@@ -225,6 +303,45 @@ namespace Homework0717
                     this.lblAns.ForeColor = Color.Red;
                     this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
                     this.cbokind.SelectedIndex = -1;
+
+                    if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
+                    {
+                        this.lblarCC.Visible = true;
+                        this.lblarCC.ForeColor = Color.Red;
+                        this.lblarCC.Text = "請依車種輸入正確汽缸／馬力選單";
+                        this.lblAns.ForeColor = Color.Red;
+                        this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+
+                        if (cbokind.Text == "") //檢查有無車種選項
+                        {
+
+                            this.lblarK.Visible = true;
+                            this.lblarK.ForeColor = Color.Red;
+                            this.lblarK.Text = "請輸入正確車種選單";
+                            this.lblAns.ForeColor = Color.Red;
+                            this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                            this.cbokind.SelectedIndex = -1;
+
+                            if (cboCCmoto.Text == "" && cboCCt.Text == "" && cboCCC.Text == "" && cboCCcar.Text == "" && cboCCcarpub.Text == "")//檢查有無汽缸選項
+                            {
+                                this.lblarCC.Visible = true;
+                                this.lblarCC.ForeColor = Color.Red;
+                                this.lblarCC.Text = "請依車種輸入正確汽缸／馬力選單";
+                                this.lblAns.ForeColor = Color.Red;
+                                this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                            }
+                        }
+                    }
+                    else
+                    {
+                        this.lblarCC.Visible = false;
+                        this.lblarK.Visible = true;
+                        this.lblarK.ForeColor = Color.Red;
+                        this.lblarK.Text = "請輸入正確車種選單";
+                        this.lblAns.ForeColor = Color.Red;
+                        this.lblAns.Text = "錯誤發生" + Environment.NewLine + "請確認資料是否輸入正確";
+                        this.cbokind.SelectedIndex = -1;
+                    }
 
                 }
 
